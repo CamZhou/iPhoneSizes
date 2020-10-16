@@ -1,0 +1,6 @@
+framework module Pods_iPhoneSizes_iPhoneSizesUITests {
+  umbrella header "Pods-iPhoneSizes-iPhoneSizesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

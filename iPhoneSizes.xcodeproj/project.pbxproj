@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,9 @@
 		015C746425396D6200C0FDB8 /* iPhoneSizesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015C746325396D6200C0FDB8 /* iPhoneSizesUITests.swift */; };
 		015C747E25396F6100C0FDB8 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015C747D25396F6100C0FDB8 /* OnboardingViewController.swift */; };
 		015C748325396F8000C0FDB8 /* DeviceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015C748225396F8000C0FDB8 /* DeviceDetailViewController.swift */; };
+		228707E317C97DD458B2EB90 /* Pods_iPhoneSizes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D099854F0CA98023D854114 /* Pods_iPhoneSizes.framework */; };
+		7FD332E308ABDB625EE90EED /* Pods_iPhoneSizesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B708D504A53D13D4ABA65B0 /* Pods_iPhoneSizesTests.framework */; };
+		C85D717666B7B989D90018D8 /* Pods_iPhoneSizes_iPhoneSizesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13062C892152B37D63A0703C /* Pods_iPhoneSizes_iPhoneSizesUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,15 @@
 		015C746525396D6200C0FDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		015C747D25396F6100C0FDB8 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		015C748225396F8000C0FDB8 /* DeviceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailViewController.swift; sourceTree = "<group>"; };
+		13062C892152B37D63A0703C /* Pods_iPhoneSizes_iPhoneSizesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPhoneSizes_iPhoneSizesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		208161B0E723B3A15F373E85 /* Pods-iPhoneSizesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneSizesTests.debug.xcconfig"; path = "Target Support Files/Pods-iPhoneSizesTests/Pods-iPhoneSizesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BE6AB14FA7B7B1647CE5E18 /* Pods-iPhoneSizes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneSizes.release.xcconfig"; path = "Target Support Files/Pods-iPhoneSizes/Pods-iPhoneSizes.release.xcconfig"; sourceTree = "<group>"; };
+		3D099854F0CA98023D854114 /* Pods_iPhoneSizes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPhoneSizes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B708D504A53D13D4ABA65B0 /* Pods_iPhoneSizesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPhoneSizesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		981D314A0BBBBDC6675FA169 /* Pods-iPhoneSizes-iPhoneSizesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneSizes-iPhoneSizesUITests.debug.xcconfig"; path = "Target Support Files/Pods-iPhoneSizes-iPhoneSizesUITests/Pods-iPhoneSizes-iPhoneSizesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A7DB398E4FC0D35A21F8AC6 /* Pods-iPhoneSizesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneSizesTests.release.xcconfig"; path = "Target Support Files/Pods-iPhoneSizesTests/Pods-iPhoneSizesTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF7113D9BFCAB11526595381 /* Pods-iPhoneSizes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneSizes.debug.xcconfig"; path = "Target Support Files/Pods-iPhoneSizes/Pods-iPhoneSizes.debug.xcconfig"; sourceTree = "<group>"; };
+		EF99309C80F9E9FAA9CECE9C /* Pods-iPhoneSizes-iPhoneSizesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneSizes-iPhoneSizesUITests.release.xcconfig"; path = "Target Support Files/Pods-iPhoneSizes-iPhoneSizesUITests/Pods-iPhoneSizes-iPhoneSizesUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				228707E317C97DD458B2EB90 /* Pods_iPhoneSizes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD332E308ABDB625EE90EED /* Pods_iPhoneSizesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C85D717666B7B989D90018D8 /* Pods_iPhoneSizes_iPhoneSizesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +104,8 @@
 				015C745725396D6200C0FDB8 /* iPhoneSizesTests */,
 				015C746225396D6200C0FDB8 /* iPhoneSizesUITests */,
 				015C743C25396D5E00C0FDB8 /* Products */,
+				5D8EC8DFD551C9EE588AA4D0 /* Pods */,
+				FEF1D442FC95EB301A08FF3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +178,29 @@
 			path = DeviceDetail;
 			sourceTree = "<group>";
 		};
+		5D8EC8DFD551C9EE588AA4D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF7113D9BFCAB11526595381 /* Pods-iPhoneSizes.debug.xcconfig */,
+				2BE6AB14FA7B7B1647CE5E18 /* Pods-iPhoneSizes.release.xcconfig */,
+				981D314A0BBBBDC6675FA169 /* Pods-iPhoneSizes-iPhoneSizesUITests.debug.xcconfig */,
+				EF99309C80F9E9FAA9CECE9C /* Pods-iPhoneSizes-iPhoneSizesUITests.release.xcconfig */,
+				208161B0E723B3A15F373E85 /* Pods-iPhoneSizesTests.debug.xcconfig */,
+				9A7DB398E4FC0D35A21F8AC6 /* Pods-iPhoneSizesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FEF1D442FC95EB301A08FF3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D099854F0CA98023D854114 /* Pods_iPhoneSizes.framework */,
+				13062C892152B37D63A0703C /* Pods_iPhoneSizes_iPhoneSizesUITests.framework */,
+				5B708D504A53D13D4ABA65B0 /* Pods_iPhoneSizesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 015C746825396D6200C0FDB8 /* Build configuration list for PBXNativeTarget "iPhoneSizes" */;
 			buildPhases = (
+				993E8545EF4F0BB395279AD9 /* [CP] Check Pods Manifest.lock */,
 				015C743725396D5E00C0FDB8 /* Sources */,
 				015C743825396D5E00C0FDB8 /* Frameworks */,
 				015C743925396D5E00C0FDB8 /* Resources */,
+				F8726E141CE8483CA6A37AF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 015C746B25396D6200C0FDB8 /* Build configuration list for PBXNativeTarget "iPhoneSizesTests" */;
 			buildPhases = (
+				89FB85D36F9E8ADCE1BA200E /* [CP] Check Pods Manifest.lock */,
 				015C745025396D6200C0FDB8 /* Sources */,
 				015C745125396D6200C0FDB8 /* Frameworks */,
 				015C745225396D6200C0FDB8 /* Resources */,
@@ -203,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 015C746E25396D6200C0FDB8 /* Build configuration list for PBXNativeTarget "iPhoneSizesUITests" */;
 			buildPhases = (
+				8CE7624E6B819D842624A393 /* [CP] Check Pods Manifest.lock */,
 				015C745B25396D6200C0FDB8 /* Sources */,
 				015C745C25396D6200C0FDB8 /* Frameworks */,
 				015C745D25396D6200C0FDB8 /* Resources */,
+				9DB97418602F8EB5AD9F5062 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,6 +330,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89FB85D36F9E8ADCE1BA200E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iPhoneSizesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CE7624E6B819D842624A393 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iPhoneSizes-iPhoneSizesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		993E8545EF4F0BB395279AD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iPhoneSizes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DB97418602F8EB5AD9F5062 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iPhoneSizes-iPhoneSizesUITests/Pods-iPhoneSizes-iPhoneSizesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iPhoneSizes-iPhoneSizesUITests/Pods-iPhoneSizes-iPhoneSizesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iPhoneSizes-iPhoneSizesUITests/Pods-iPhoneSizes-iPhoneSizesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8726E141CE8483CA6A37AF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iPhoneSizes/Pods-iPhoneSizes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iPhoneSizes/Pods-iPhoneSizes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iPhoneSizes/Pods-iPhoneSizes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		015C743725396D5E00C0FDB8 /* Sources */ = {
@@ -402,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -457,7 +605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -469,6 +617,7 @@
 		};
 		015C746925396D6200C0FDB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7113D9BFCAB11526595381 /* Pods-iPhoneSizes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +637,7 @@
 		};
 		015C746A25396D6200C0FDB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE6AB14FA7B7B1647CE5E18 /* Pods-iPhoneSizes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -507,6 +657,7 @@
 		};
 		015C746C25396D6200C0FDB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 208161B0E723B3A15F373E85 /* Pods-iPhoneSizesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +680,7 @@
 		};
 		015C746D25396D6200C0FDB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7DB398E4FC0D35A21F8AC6 /* Pods-iPhoneSizesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -551,6 +703,7 @@
 		};
 		015C746F25396D6200C0FDB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981D314A0BBBBDC6675FA169 /* Pods-iPhoneSizes-iPhoneSizesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -571,6 +724,7 @@
 		};
 		015C747025396D6200C0FDB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF99309C80F9E9FAA9CECE9C /* Pods-iPhoneSizes-iPhoneSizesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

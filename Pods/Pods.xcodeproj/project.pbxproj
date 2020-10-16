@@ -1,0 +1,1013 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F30B15B1E9FD878007C41ED8B8CCFA /* OnboardingContantViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE72B8FE646A60A6BD18D1E37FB1970 /* OnboardingContantViewItem.swift */; };
+		12E19C92404AA4882B44C82C13398467 /* Pods-iPhoneSizes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AA5285E48082037DF42ADE19741394 /* Pods-iPhoneSizes-dummy.m */; };
+		1D8BE755A684FC132E1C0D62AD35A56A /* FillAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020CF59A27E03BAF9587AAF50E5BE141 /* FillAnimationView.swift */; };
+		1E43AD13C988387C35D65D341FA2A8C8 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17F9A5C0C96B739DAD8571486A33021 /* PageView.swift */; };
+		223F3449974BEA68231F1EA9C6E1FE8D /* paper-onboarding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 700D5E151344258231CC95DEAAFDA128 /* paper-onboarding-dummy.m */; };
+		2389208835126ADD6B969F7031EBFDCB /* PaperOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA929335E3320C3923423B017550EBA /* PaperOnboarding.swift */; };
+		2A18B7BD35E7F8BC7B0582F4E8953055 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		342607275DABA8DA2A32D101196496EB /* paper-onboarding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37702A2C0CEBDD96D26AABD27C100CA6 /* paper-onboarding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B970F50B6565183DF0FD689A68C7CF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4837FFEDD30B7A2A5B6D854E86A1194F /* Pods-iPhoneSizes-iPhoneSizesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57703F3C67ABD59AB216D6618923B084 /* Pods-iPhoneSizes-iPhoneSizesUITests-dummy.m */; };
+		4C615F57B763AA6170BBE5251567F140 /* OnboardingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7445D98819A549E8BFCF65D951B997 /* OnboardingContentView.swift */; };
+		4F17055D20B820F265F0C174C67CA94B /* PageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511B6FCF061F7368E2BDE8EBFE3B82A5 /* PageContainer.swift */; };
+		58BDBE5CC45534FFE7670F501C3F5EB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6D7474D4EED24508F7DDDEF62E5B507F /* Pods-iPhoneSizes-iPhoneSizesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F7C499B46855ACA7B3B73BF300BF7A /* Pods-iPhoneSizes-iPhoneSizesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77E39F092938D77B3D9FA3AA6DC5E969 /* Pods-iPhoneSizesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0436CFB71FB0196EF8CA5D8BACE79369 /* Pods-iPhoneSizesTests-dummy.m */; };
+		77F112403440A7419C4880CABD38A962 /* PageViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72E233F45374FA95DE066F4DBB5D464 /* PageViewItem.swift */; };
+		7D669CE134F23BB348238F83F58F94D5 /* PaperOnboardingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C671F3630F3B27F4CD5DA8BDEDABC /* PaperOnboardingDelegate.swift */; };
+		8E4E8665231216670E0DD1DE32224812 /* Configuring.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60A20CD2629C7089333BFDDD45C2F21 /* Configuring.swift */; };
+		A6C1FA88086114367DD6C993C443D128 /* Pods-iPhoneSizesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32883EF20D092E2F1510192977D500BA /* Pods-iPhoneSizesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2CE4FC5C310FC8F7FF6B91362C6D513 /* GestureControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAC08EEBCDC87D9A3C42317AFE34DE4 /* GestureControl.swift */; };
+		C50BB3DFFF3E48568C20F2F6F936D5BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E4CB6CECA7CB18381C909A4020E69AED /* Pods-iPhoneSizes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2747B4D0F9BFDF8BC2CCEBBB0CCC6BA /* Pods-iPhoneSizes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBA796C399BD028C7BDE122FD28B24FE /* ConstraintsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24906578F833DB88707D850610F4047B /* ConstraintsHelper.swift */; };
+		F3513898978812B5DB65771F46CF7707 /* PaperOnboardingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF12F3273FC7118D927984F876A01EE7 /* PaperOnboardingDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F40D4D9C5F7368CE494A484A66D9849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 092BBAE106FF2FFA56F415EFB1EDBC41;
+			remoteInfo = "paper-onboarding";
+		};
+		DE34F3FC1A528BDEA1798FAD34F0B3B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 092BBAE106FF2FFA56F415EFB1EDBC41;
+			remoteInfo = "paper-onboarding";
+		};
+		EF5DAA9B1153C0335BA23D45356D003D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BE737B27889B5C6A4BB9F6EE06D2F12;
+			remoteInfo = "Pods-iPhoneSizes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020CF59A27E03BAF9587AAF50E5BE141 /* FillAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillAnimationView.swift; path = Source/FillAnimationView/FillAnimationView.swift; sourceTree = "<group>"; };
+		0436CFB71FB0196EF8CA5D8BACE79369 /* Pods-iPhoneSizesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iPhoneSizesTests-dummy.m"; sourceTree = "<group>"; };
+		05B92ADE1511F1A9EB78EFE7262AB5F3 /* Pods-iPhoneSizes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iPhoneSizes-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F543B0F0BFB4CAC1F6B9D2D8201CBF6 /* Pods-iPhoneSizes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iPhoneSizes.modulemap"; sourceTree = "<group>"; };
+		16F7C499B46855ACA7B3B73BF300BF7A /* Pods-iPhoneSizes-iPhoneSizesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iPhoneSizes-iPhoneSizesUITests-umbrella.h"; sourceTree = "<group>"; };
+		1A92764A0A26D47B3E7EBF597C775C3A /* Pods-iPhoneSizes-iPhoneSizesUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iPhoneSizes-iPhoneSizesUITests-frameworks.sh"; sourceTree = "<group>"; };
+		226ADA204713BD0164A2169C496F4CC1 /* Pods-iPhoneSizes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iPhoneSizes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24906578F833DB88707D850610F4047B /* ConstraintsHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintsHelper.swift; path = Source/Helpers/ConstraintsHelper.swift; sourceTree = "<group>"; };
+		286F97FA7874B1A621AAAB56F2697D64 /* paper-onboarding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "paper-onboarding-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32883EF20D092E2F1510192977D500BA /* Pods-iPhoneSizesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iPhoneSizesTests-umbrella.h"; sourceTree = "<group>"; };
+		359C8A101F8EC8DBD2EC49468C82D314 /* Pods-iPhoneSizesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iPhoneSizesTests.modulemap"; sourceTree = "<group>"; };
+		37702A2C0CEBDD96D26AABD27C100CA6 /* paper-onboarding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "paper-onboarding-umbrella.h"; sourceTree = "<group>"; };
+		3A9A57340CD53A889CBAD12AB6F1A0E5 /* Pods-iPhoneSizes-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iPhoneSizes-frameworks.sh"; sourceTree = "<group>"; };
+		3D1863635FCA0C9D3859CCF8D5D7DCFE /* Pods-iPhoneSizesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPhoneSizesTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FA27ED9626B4B497635970A3DE9D1E5 /* Pods-iPhoneSizes-iPhoneSizesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iPhoneSizes-iPhoneSizesUITests.modulemap"; sourceTree = "<group>"; };
+		511B6FCF061F7368E2BDE8EBFE3B82A5 /* PageContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageContainer.swift; path = Source/PageView/PageContainerView/PageContainer.swift; sourceTree = "<group>"; };
+		57703F3C67ABD59AB216D6618923B084 /* Pods-iPhoneSizes-iPhoneSizesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iPhoneSizes-iPhoneSizesUITests-dummy.m"; sourceTree = "<group>"; };
+		585A9D0E1DA7D23C3A073DD52FA5024F /* Pods-iPhoneSizes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPhoneSizes.debug.xcconfig"; sourceTree = "<group>"; };
+		5D254CA15028049E220E30009792AEFE /* Pods-iPhoneSizesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iPhoneSizesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		700D5E151344258231CC95DEAAFDA128 /* paper-onboarding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "paper-onboarding-dummy.m"; sourceTree = "<group>"; };
+		79716138FD1BFCEB9F1AF83673C7DFDF /* paper-onboarding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "paper-onboarding.modulemap"; sourceTree = "<group>"; };
+		840B405BDE08C0BA306EA7334009A3E6 /* Pods-iPhoneSizesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iPhoneSizesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8AA929335E3320C3923423B017550EBA /* PaperOnboarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperOnboarding.swift; path = Source/PaperOnboarding.swift; sourceTree = "<group>"; };
+		8CB13E0C62D1324ED182BD85113CBA6C /* paper-onboarding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "paper-onboarding.debug.xcconfig"; sourceTree = "<group>"; };
+		96E75483AC554C94A7678825471FB321 /* Pods-iPhoneSizes-iPhoneSizesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPhoneSizes-iPhoneSizesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A294D89D0BC4A7E555FD85050AAE01B9 /* Pods_iPhoneSizes_iPhoneSizesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPhoneSizes_iPhoneSizesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3424577D7DA766BF0C2ADDEFAA5F1F1 /* Pods-iPhoneSizesTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iPhoneSizesTests-Info.plist"; sourceTree = "<group>"; };
+		A9C7EB760F88F859E07EB1C53B333F91 /* Pods-iPhoneSizes-iPhoneSizesUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iPhoneSizes-iPhoneSizesUITests-Info.plist"; sourceTree = "<group>"; };
+		AB7445D98819A549E8BFCF65D951B997 /* OnboardingContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingContentView.swift; path = Source/OnboardingContentView/OnboardingContentView.swift; sourceTree = "<group>"; };
+		AD12DB1E1382B66142DDBF1A4540DAB1 /* Pods-iPhoneSizes-iPhoneSizesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iPhoneSizes-iPhoneSizesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9D9352A672587D38E994A318116D023 /* paper-onboarding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "paper-onboarding.release.xcconfig"; sourceTree = "<group>"; };
+		BE19437F2A4B7AEC47D5A3DDFC444253 /* paper-onboarding-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "paper-onboarding-Info.plist"; sourceTree = "<group>"; };
+		BF12F3273FC7118D927984F876A01EE7 /* PaperOnboardingDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperOnboardingDataSource.swift; path = Source/PaperOnboardingDataSource.swift; sourceTree = "<group>"; };
+		BFF2591415F9E11048ACCC10A3D52E86 /* paper_onboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = paper_onboarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DBF0AFFA79A292DCDB826A0F240BB2 /* Pods-iPhoneSizes-iPhoneSizesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPhoneSizes-iPhoneSizesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C60A20CD2629C7089333BFDDD45C2F21 /* Configuring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuring.swift; path = Source/Helpers/Configuring.swift; sourceTree = "<group>"; };
+		CBE72B8FE646A60A6BD18D1E37FB1970 /* OnboardingContantViewItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingContantViewItem.swift; path = Source/OnboardingContentView/Item/OnboardingContantViewItem.swift; sourceTree = "<group>"; };
+		CCAC08EEBCDC87D9A3C42317AFE34DE4 /* GestureControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GestureControl.swift; path = Source/GestureControl/GestureControl.swift; sourceTree = "<group>"; };
+		D2747B4D0F9BFDF8BC2CCEBBB0CCC6BA /* Pods-iPhoneSizes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iPhoneSizes-umbrella.h"; sourceTree = "<group>"; };
+		D9B4D084F2745DDE9BE8D1987AC46A05 /* Pods_iPhoneSizes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPhoneSizes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8F68E193512557A45DB5F7117CF205 /* Pods-iPhoneSizesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPhoneSizesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE4C671F3630F3B27F4CD5DA8BDEDABC /* PaperOnboardingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperOnboardingDelegate.swift; path = Source/PaperOnboardingDelegate.swift; sourceTree = "<group>"; };
+		DF1A99130B9DB0A386501055792B7F26 /* Pods-iPhoneSizes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPhoneSizes.release.xcconfig"; sourceTree = "<group>"; };
+		E72E233F45374FA95DE066F4DBB5D464 /* PageViewItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewItem.swift; path = Source/PageView/Item/PageViewItem.swift; sourceTree = "<group>"; };
+		EA8BBA9F12C2CBD6959E79A68CFB267D /* Pods-iPhoneSizes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iPhoneSizes-Info.plist"; sourceTree = "<group>"; };
+		F17F9A5C0C96B739DAD8571486A33021 /* PageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageView.swift; path = Source/PageView/PageView.swift; sourceTree = "<group>"; };
+		F3AA5285E48082037DF42ADE19741394 /* Pods-iPhoneSizes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iPhoneSizes-dummy.m"; sourceTree = "<group>"; };
+		F7973C74358FD6095EA91A6E570C16F5 /* Pods_iPhoneSizesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPhoneSizesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9664BC6863C6FFE4316CE63A0289DF /* Pods-iPhoneSizes-iPhoneSizesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iPhoneSizes-iPhoneSizesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0995386CC00378FB8BC461EAAD6AC26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B970F50B6565183DF0FD689A68C7CF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99935D392E9CEC9F65E2244BB5D5113C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50BB3DFFF3E48568C20F2F6F936D5BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFABD77BCEC53D4014F1435801E1BDED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BDBE5CC45534FFE7670F501C3F5EB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FBCF0229C934CCF3D1171AE24F356D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A18B7BD35E7F8BC7B0582F4E8953055 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00AEC9DB17F12E9E55A49228317996F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59DE463EACA4FB67FCCE23A383BA65BF /* paper-onboarding */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27DB3709B0573D4127292D11FE86A279 /* Pods-iPhoneSizesTests */ = {
+			isa = PBXGroup;
+			children = (
+				359C8A101F8EC8DBD2EC49468C82D314 /* Pods-iPhoneSizesTests.modulemap */,
+				840B405BDE08C0BA306EA7334009A3E6 /* Pods-iPhoneSizesTests-acknowledgements.markdown */,
+				5D254CA15028049E220E30009792AEFE /* Pods-iPhoneSizesTests-acknowledgements.plist */,
+				0436CFB71FB0196EF8CA5D8BACE79369 /* Pods-iPhoneSizesTests-dummy.m */,
+				A3424577D7DA766BF0C2ADDEFAA5F1F1 /* Pods-iPhoneSizesTests-Info.plist */,
+				32883EF20D092E2F1510192977D500BA /* Pods-iPhoneSizesTests-umbrella.h */,
+				DD8F68E193512557A45DB5F7117CF205 /* Pods-iPhoneSizesTests.debug.xcconfig */,
+				3D1863635FCA0C9D3859CCF8D5D7DCFE /* Pods-iPhoneSizesTests.release.xcconfig */,
+			);
+			name = "Pods-iPhoneSizesTests";
+			path = "Target Support Files/Pods-iPhoneSizesTests";
+			sourceTree = "<group>";
+		};
+		396EAC83E4DA07CCF68E3DF7622EA5D9 /* Pods-iPhoneSizes */ = {
+			isa = PBXGroup;
+			children = (
+				0F543B0F0BFB4CAC1F6B9D2D8201CBF6 /* Pods-iPhoneSizes.modulemap */,
+				226ADA204713BD0164A2169C496F4CC1 /* Pods-iPhoneSizes-acknowledgements.markdown */,
+				05B92ADE1511F1A9EB78EFE7262AB5F3 /* Pods-iPhoneSizes-acknowledgements.plist */,
+				F3AA5285E48082037DF42ADE19741394 /* Pods-iPhoneSizes-dummy.m */,
+				3A9A57340CD53A889CBAD12AB6F1A0E5 /* Pods-iPhoneSizes-frameworks.sh */,
+				EA8BBA9F12C2CBD6959E79A68CFB267D /* Pods-iPhoneSizes-Info.plist */,
+				D2747B4D0F9BFDF8BC2CCEBBB0CCC6BA /* Pods-iPhoneSizes-umbrella.h */,
+				585A9D0E1DA7D23C3A073DD52FA5024F /* Pods-iPhoneSizes.debug.xcconfig */,
+				DF1A99130B9DB0A386501055792B7F26 /* Pods-iPhoneSizes.release.xcconfig */,
+			);
+			name = "Pods-iPhoneSizes";
+			path = "Target Support Files/Pods-iPhoneSizes";
+			sourceTree = "<group>";
+		};
+		3B8E47F2FA5D4C188B2E2E09E5CA54B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2591415F9E11048ACCC10A3D52E86 /* paper_onboarding.framework */,
+				D9B4D084F2745DDE9BE8D1987AC46A05 /* Pods_iPhoneSizes.framework */,
+				A294D89D0BC4A7E555FD85050AAE01B9 /* Pods_iPhoneSizes_iPhoneSizesUITests.framework */,
+				F7973C74358FD6095EA91A6E570C16F5 /* Pods_iPhoneSizesTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59DE463EACA4FB67FCCE23A383BA65BF /* paper-onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C60A20CD2629C7089333BFDDD45C2F21 /* Configuring.swift */,
+				24906578F833DB88707D850610F4047B /* ConstraintsHelper.swift */,
+				020CF59A27E03BAF9587AAF50E5BE141 /* FillAnimationView.swift */,
+				CCAC08EEBCDC87D9A3C42317AFE34DE4 /* GestureControl.swift */,
+				CBE72B8FE646A60A6BD18D1E37FB1970 /* OnboardingContantViewItem.swift */,
+				AB7445D98819A549E8BFCF65D951B997 /* OnboardingContentView.swift */,
+				511B6FCF061F7368E2BDE8EBFE3B82A5 /* PageContainer.swift */,
+				F17F9A5C0C96B739DAD8571486A33021 /* PageView.swift */,
+				E72E233F45374FA95DE066F4DBB5D464 /* PageViewItem.swift */,
+				8AA929335E3320C3923423B017550EBA /* PaperOnboarding.swift */,
+				BF12F3273FC7118D927984F876A01EE7 /* PaperOnboardingDataSource.swift */,
+				DE4C671F3630F3B27F4CD5DA8BDEDABC /* PaperOnboardingDelegate.swift */,
+				A3774FF31448519051EE5920DAEACABD /* Support Files */,
+			);
+			path = "paper-onboarding";
+			sourceTree = "<group>";
+		};
+		8B1C0F13D15341C8A6331D1FD482589C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				396EAC83E4DA07CCF68E3DF7622EA5D9 /* Pods-iPhoneSizes */,
+				F535047BD96C180D504B93ABCF232648 /* Pods-iPhoneSizes-iPhoneSizesUITests */,
+				27DB3709B0573D4127292D11FE86A279 /* Pods-iPhoneSizesTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A3774FF31448519051EE5920DAEACABD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79716138FD1BFCEB9F1AF83673C7DFDF /* paper-onboarding.modulemap */,
+				700D5E151344258231CC95DEAAFDA128 /* paper-onboarding-dummy.m */,
+				BE19437F2A4B7AEC47D5A3DDFC444253 /* paper-onboarding-Info.plist */,
+				286F97FA7874B1A621AAAB56F2697D64 /* paper-onboarding-prefix.pch */,
+				37702A2C0CEBDD96D26AABD27C100CA6 /* paper-onboarding-umbrella.h */,
+				8CB13E0C62D1324ED182BD85113CBA6C /* paper-onboarding.debug.xcconfig */,
+				B9D9352A672587D38E994A318116D023 /* paper-onboarding.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/paper-onboarding";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				00AEC9DB17F12E9E55A49228317996F7 /* Pods */,
+				3B8E47F2FA5D4C188B2E2E09E5CA54B5 /* Products */,
+				8B1C0F13D15341C8A6331D1FD482589C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F535047BD96C180D504B93ABCF232648 /* Pods-iPhoneSizes-iPhoneSizesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA27ED9626B4B497635970A3DE9D1E5 /* Pods-iPhoneSizes-iPhoneSizesUITests.modulemap */,
+				AD12DB1E1382B66142DDBF1A4540DAB1 /* Pods-iPhoneSizes-iPhoneSizesUITests-acknowledgements.markdown */,
+				FA9664BC6863C6FFE4316CE63A0289DF /* Pods-iPhoneSizes-iPhoneSizesUITests-acknowledgements.plist */,
+				57703F3C67ABD59AB216D6618923B084 /* Pods-iPhoneSizes-iPhoneSizesUITests-dummy.m */,
+				1A92764A0A26D47B3E7EBF597C775C3A /* Pods-iPhoneSizes-iPhoneSizesUITests-frameworks.sh */,
+				A9C7EB760F88F859E07EB1C53B333F91 /* Pods-iPhoneSizes-iPhoneSizesUITests-Info.plist */,
+				16F7C499B46855ACA7B3B73BF300BF7A /* Pods-iPhoneSizes-iPhoneSizesUITests-umbrella.h */,
+				96E75483AC554C94A7678825471FB321 /* Pods-iPhoneSizes-iPhoneSizesUITests.debug.xcconfig */,
+				C1DBF0AFFA79A292DCDB826A0F240BB2 /* Pods-iPhoneSizes-iPhoneSizesUITests.release.xcconfig */,
+			);
+			name = "Pods-iPhoneSizes-iPhoneSizesUITests";
+			path = "Target Support Files/Pods-iPhoneSizes-iPhoneSizesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D37B5C2555F4F5ACBD41A881AF50797 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342607275DABA8DA2A32D101196496EB /* paper-onboarding-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07640155C784ED91E4AE0CE458ABC47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7474D4EED24508F7DDDEF62E5B507F /* Pods-iPhoneSizes-iPhoneSizesUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB491AA7203711D6C300C2F7997F3C0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C1FA88086114367DD6C993C443D128 /* Pods-iPhoneSizesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B54DF7DE3A633A7CE01AF8DA662059 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CB6CECA7CB18381C909A4020E69AED /* Pods-iPhoneSizes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		092BBAE106FF2FFA56F415EFB1EDBC41 /* paper-onboarding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFF71E528A02CBD2D7497ADC845C057 /* Build configuration list for PBXNativeTarget "paper-onboarding" */;
+			buildPhases = (
+				6D37B5C2555F4F5ACBD41A881AF50797 /* Headers */,
+				28B14E019345581A4A106E50E54F7A35 /* Sources */,
+				0995386CC00378FB8BC461EAAD6AC26F /* Frameworks */,
+				9F304C62837AB904FCB12E99521A80D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "paper-onboarding";
+			productName = "paper-onboarding";
+			productReference = BFF2591415F9E11048ACCC10A3D52E86 /* paper_onboarding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		12F70A601B93597BC4A23F2A6690116D /* Pods-iPhoneSizesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00D07580DCAC0851E2EBF0147061EE8 /* Build configuration list for PBXNativeTarget "Pods-iPhoneSizesTests" */;
+			buildPhases = (
+				AB491AA7203711D6C300C2F7997F3C0E /* Headers */,
+				8654F8DB8279357941A3E5672C7B3746 /* Sources */,
+				E9FBCF0229C934CCF3D1171AE24F356D /* Frameworks */,
+				43D3E95E971450CD3CC96AAF06361E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C08DC26A92B2972EE3F92C931A4BA6A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-iPhoneSizesTests";
+			productName = "Pods-iPhoneSizesTests";
+			productReference = F7973C74358FD6095EA91A6E570C16F5 /* Pods_iPhoneSizesTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50942AA350C38B83A5672A2848F44B0D /* Pods-iPhoneSizes-iPhoneSizesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C956F42C90ECAD354851D58F3572730C /* Build configuration list for PBXNativeTarget "Pods-iPhoneSizes-iPhoneSizesUITests" */;
+			buildPhases = (
+				A07640155C784ED91E4AE0CE458ABC47 /* Headers */,
+				8D18658B78F60F2FB90E4E1FE1754593 /* Sources */,
+				DFABD77BCEC53D4014F1435801E1BDED /* Frameworks */,
+				5FBBFDAD8C4566B419682DA0A9CE3D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F23D8D8B09EAB80C8B76C1C9C12A9AF9 /* PBXTargetDependency */,
+			);
+			name = "Pods-iPhoneSizes-iPhoneSizesUITests";
+			productName = "Pods-iPhoneSizes-iPhoneSizesUITests";
+			productReference = A294D89D0BC4A7E555FD85050AAE01B9 /* Pods_iPhoneSizes_iPhoneSizesUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BE737B27889B5C6A4BB9F6EE06D2F12 /* Pods-iPhoneSizes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823E99E273ABEC8E92CAD87F81C66C81 /* Build configuration list for PBXNativeTarget "Pods-iPhoneSizes" */;
+			buildPhases = (
+				C2B54DF7DE3A633A7CE01AF8DA662059 /* Headers */,
+				ADAAB17FB03567DA2A260F7E87ABF791 /* Sources */,
+				99935D392E9CEC9F65E2244BB5D5113C /* Frameworks */,
+				9FE8A4D52BB8D8BBECBABB7A446DA46D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC687E378B67805DD01BF204E78FBFE9 /* PBXTargetDependency */,
+			);
+			name = "Pods-iPhoneSizes";
+			productName = "Pods-iPhoneSizes";
+			productReference = D9B4D084F2745DDE9BE8D1987AC46A05 /* Pods_iPhoneSizes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1200;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3B8E47F2FA5D4C188B2E2E09E5CA54B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				092BBAE106FF2FFA56F415EFB1EDBC41 /* paper-onboarding */,
+				8BE737B27889B5C6A4BB9F6EE06D2F12 /* Pods-iPhoneSizes */,
+				50942AA350C38B83A5672A2848F44B0D /* Pods-iPhoneSizes-iPhoneSizesUITests */,
+				12F70A601B93597BC4A23F2A6690116D /* Pods-iPhoneSizesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43D3E95E971450CD3CC96AAF06361E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBBFDAD8C4566B419682DA0A9CE3D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F304C62837AB904FCB12E99521A80D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE8A4D52BB8D8BBECBABB7A446DA46D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28B14E019345581A4A106E50E54F7A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4E8665231216670E0DD1DE32224812 /* Configuring.swift in Sources */,
+				EBA796C399BD028C7BDE122FD28B24FE /* ConstraintsHelper.swift in Sources */,
+				1D8BE755A684FC132E1C0D62AD35A56A /* FillAnimationView.swift in Sources */,
+				B2CE4FC5C310FC8F7FF6B91362C6D513 /* GestureControl.swift in Sources */,
+				07F30B15B1E9FD878007C41ED8B8CCFA /* OnboardingContantViewItem.swift in Sources */,
+				4C615F57B763AA6170BBE5251567F140 /* OnboardingContentView.swift in Sources */,
+				4F17055D20B820F265F0C174C67CA94B /* PageContainer.swift in Sources */,
+				1E43AD13C988387C35D65D341FA2A8C8 /* PageView.swift in Sources */,
+				77F112403440A7419C4880CABD38A962 /* PageViewItem.swift in Sources */,
+				223F3449974BEA68231F1EA9C6E1FE8D /* paper-onboarding-dummy.m in Sources */,
+				2389208835126ADD6B969F7031EBFDCB /* PaperOnboarding.swift in Sources */,
+				F3513898978812B5DB65771F46CF7707 /* PaperOnboardingDataSource.swift in Sources */,
+				7D669CE134F23BB348238F83F58F94D5 /* PaperOnboardingDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8654F8DB8279357941A3E5672C7B3746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E39F092938D77B3D9FA3AA6DC5E969 /* Pods-iPhoneSizesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D18658B78F60F2FB90E4E1FE1754593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4837FFEDD30B7A2A5B6D854E86A1194F /* Pods-iPhoneSizes-iPhoneSizesUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAAB17FB03567DA2A260F7E87ABF791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E19C92404AA4882B44C82C13398467 /* Pods-iPhoneSizes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC687E378B67805DD01BF204E78FBFE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "paper-onboarding";
+			target = 092BBAE106FF2FFA56F415EFB1EDBC41 /* paper-onboarding */;
+			targetProxy = 7F40D4D9C5F7368CE494A484A66D9849 /* PBXContainerItemProxy */;
+		};
+		C08DC26A92B2972EE3F92C931A4BA6A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iPhoneSizes";
+			target = 8BE737B27889B5C6A4BB9F6EE06D2F12 /* Pods-iPhoneSizes */;
+			targetProxy = EF5DAA9B1153C0335BA23D45356D003D /* PBXContainerItemProxy */;
+		};
+		F23D8D8B09EAB80C8B76C1C9C12A9AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "paper-onboarding";
+			target = 092BBAE106FF2FFA56F415EFB1EDBC41 /* paper-onboarding */;
+			targetProxy = DE34F3FC1A528BDEA1798FAD34F0B3B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03EA8814E0822F7C9147355D8CB4276B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DBF0AFFA79A292DCDB826A0F240BB2 /* Pods-iPhoneSizes-iPhoneSizesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iPhoneSizes-iPhoneSizesUITests/Pods-iPhoneSizes-iPhoneSizesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPhoneSizes-iPhoneSizesUITests/Pods-iPhoneSizes-iPhoneSizesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1D2642BF19926B1CF1630FF3642FC90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585A9D0E1DA7D23C3A073DD52FA5024F /* Pods-iPhoneSizes.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iPhoneSizes/Pods-iPhoneSizes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPhoneSizes/Pods-iPhoneSizes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40B9B71A73A6CA37F9B82E14992DD555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1863635FCA0C9D3859CCF8D5D7DCFE /* Pods-iPhoneSizesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iPhoneSizesTests/Pods-iPhoneSizesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPhoneSizesTests/Pods-iPhoneSizesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6ECA3C33CEAE7586FA515C697A0E71AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8F68E193512557A45DB5F7117CF205 /* Pods-iPhoneSizesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iPhoneSizesTests/Pods-iPhoneSizesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPhoneSizesTests/Pods-iPhoneSizesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CA571B1C965627687A01226D841D9E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1A99130B9DB0A386501055792B7F26 /* Pods-iPhoneSizes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iPhoneSizes/Pods-iPhoneSizes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPhoneSizes/Pods-iPhoneSizes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B74556E6EA3E8B7110510B56ECBD4EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E75483AC554C94A7678825471FB321 /* Pods-iPhoneSizes-iPhoneSizesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iPhoneSizes-iPhoneSizesUITests/Pods-iPhoneSizes-iPhoneSizesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPhoneSizes-iPhoneSizesUITests/Pods-iPhoneSizes-iPhoneSizesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1D6549C4C52DF8C7FAC93A61F1D446E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CB13E0C62D1324ED182BD85113CBA6C /* paper-onboarding.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/paper-onboarding/paper-onboarding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/paper-onboarding/paper-onboarding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/paper-onboarding/paper-onboarding.modulemap";
+				PRODUCT_MODULE_NAME = paper_onboarding;
+				PRODUCT_NAME = paper_onboarding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAA59246C13A58B85F1EC74A7ADF88DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D9352A672587D38E994A318116D023 /* paper-onboarding.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/paper-onboarding/paper-onboarding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/paper-onboarding/paper-onboarding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/paper-onboarding/paper-onboarding.modulemap";
+				PRODUCT_MODULE_NAME = paper_onboarding;
+				PRODUCT_NAME = paper_onboarding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823E99E273ABEC8E92CAD87F81C66C81 /* Build configuration list for PBXNativeTarget "Pods-iPhoneSizes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D2642BF19926B1CF1630FF3642FC90C /* Debug */,
+				8CA571B1C965627687A01226D841D9E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFF71E528A02CBD2D7497ADC845C057 /* Build configuration list for PBXNativeTarget "paper-onboarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D6549C4C52DF8C7FAC93A61F1D446E /* Debug */,
+				FAA59246C13A58B85F1EC74A7ADF88DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C956F42C90ECAD354851D58F3572730C /* Build configuration list for PBXNativeTarget "Pods-iPhoneSizes-iPhoneSizesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74556E6EA3E8B7110510B56ECBD4EB8 /* Debug */,
+				03EA8814E0822F7C9147355D8CB4276B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00D07580DCAC0851E2EBF0147061EE8 /* Build configuration list for PBXNativeTarget "Pods-iPhoneSizesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECA3C33CEAE7586FA515C697A0E71AF /* Debug */,
+				40B9B71A73A6CA37F9B82E14992DD555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
