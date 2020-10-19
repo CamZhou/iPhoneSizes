@@ -21,12 +21,57 @@ enum DeviceType: String, CaseIterable {
   case iPhoneXSMax
   case iPhoneX
   case iPhone8Plus
-  case iPhone8 = "iPhone10,1"
-  case iPhone7Plus = "iPhone9,2"
-  case iPhone7 = "iPhone9,1"
-  case iPhoneSE = "iPhone12,8"
-  case iPhone6sPlus = "iPhone8,2"
-  case iPhone6s = "iPhone8,1"
+  case iPhone8
+  case iPhone7Plus
+  case iPhone7
+  case iPhoneSE
+  case iPhone6sPlus
+  case iPhone6s
+
+  init?(modelName: String) {
+    switch modelName {
+    case "iPhone13,4":
+      self = .iPhone12ProMax
+    case "iPhone13,3":
+      self = .iPhone12Pro
+    case "iPhone13,2":
+      self = .iPhone12
+    case "iPhone13,1":
+      self = .iPhone12Mini
+    case "iPhone12,8":
+      self = .iPhoneSe2020
+    case "iPhone12,5":
+      self = .iPhone11ProMax
+    case "iPhone12,3":
+      self = .iPhone11Pro
+    case "iPhone12,1":
+      self = .iPhone11
+    case "iPhone11,8":
+      self = .iPhoneXR
+    case "iPhone11,4", "iPhone11,6":
+      self = .iPhoneXSMax
+    case "iPhone11,2":
+      self = .iPhoneXS
+    case "iPhone10,3", "iPhone10,6":
+      self = .iPhoneX
+    case "iPhone10,2", "iPhone10,5":
+      self = .iPhone8Plus
+    case "iPhone10,1", "iPhone10,4":
+      self = .iPhone8
+    case "iPhone9,2", "iPhone9,4":
+      self = .iPhone7Plus
+    case "iPhone9,1", "iPhone9,3":
+      self = .iPhone7
+    case "iPhone8,4":
+      self = .iPhoneSE
+    case "iPhone8,2":
+      self = .iPhone6sPlus
+    case "iPhone8,1":
+      self = .iPhone6s
+    default:
+      self = nil
+    }
+  }
 }
 
 extension DeviceType {
