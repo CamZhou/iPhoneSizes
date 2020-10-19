@@ -12,7 +12,7 @@ final class OnboardingViewController: UIViewController {
 
   private enum Constants {
     static let seeOnboardingCount = "see_onboarding_count"
-    static let maxOnboardingTime = 100 // TBD
+    static let maxOnboardingTime = 5 // TBD
   }
 
   static var shouldShow: Bool {
