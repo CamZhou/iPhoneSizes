@@ -20,6 +20,7 @@
 		015C748325396F8000C0FDB8 /* DeviceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015C748225396F8000C0FDB8 /* DeviceDetailViewController.swift */; };
 		228707E317C97DD458B2EB90 /* Pods_iPhoneSizes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D099854F0CA98023D854114 /* Pods_iPhoneSizes.framework */; };
 		548C2A5D253A90A70007C839 /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548C2A5C253A90A70007C839 /* DeviceType.swift */; };
+		65854421253D7BE60022DE83 /* DeviceDetailInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65854420253D7BE60022DE83 /* DeviceDetailInput.swift */; };
 		7FD332E308ABDB625EE90EED /* Pods_iPhoneSizesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B708D504A53D13D4ABA65B0 /* Pods_iPhoneSizesTests.framework */; };
 		C85D717666B7B989D90018D8 /* Pods_iPhoneSizes_iPhoneSizesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13062C892152B37D63A0703C /* Pods_iPhoneSizes_iPhoneSizesUITests.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		3D099854F0CA98023D854114 /* Pods_iPhoneSizes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPhoneSizes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		548C2A5C253A90A70007C839 /* DeviceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
 		5B708D504A53D13D4ABA65B0 /* Pods_iPhoneSizesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPhoneSizesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65854420253D7BE60022DE83 /* DeviceDetailInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDetailInput.swift; sourceTree = "<group>"; };
 		981D314A0BBBBDC6675FA169 /* Pods-iPhoneSizes-iPhoneSizesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneSizes-iPhoneSizesUITests.debug.xcconfig"; path = "Target Support Files/Pods-iPhoneSizes-iPhoneSizesUITests/Pods-iPhoneSizes-iPhoneSizesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9A7DB398E4FC0D35A21F8AC6 /* Pods-iPhoneSizesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneSizesTests.release.xcconfig"; path = "Target Support Files/Pods-iPhoneSizesTests/Pods-iPhoneSizesTests.release.xcconfig"; sourceTree = "<group>"; };
 		BF7113D9BFCAB11526595381 /* Pods-iPhoneSizes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneSizes.debug.xcconfig"; path = "Target Support Files/Pods-iPhoneSizes/Pods-iPhoneSizes.debug.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 		015C747625396E9D00C0FDB8 /* DeviceDetail */ = {
 			isa = PBXGroup;
 			children = (
+				65854420253D7BE60022DE83 /* DeviceDetailInput.swift */,
 				015C748225396F8000C0FDB8 /* DeviceDetailViewController.swift */,
 			);
 			path = DeviceDetail;
@@ -455,6 +458,7 @@
 				015C748325396F8000C0FDB8 /* DeviceDetailViewController.swift in Sources */,
 				548C2A5D253A90A70007C839 /* DeviceType.swift in Sources */,
 				015C747E25396F6100C0FDB8 /* OnboardingViewController.swift in Sources */,
+				65854421253D7BE60022DE83 /* DeviceDetailInput.swift in Sources */,
 				015C743F25396D5E00C0FDB8 /* AppDelegate.swift in Sources */,
 				015C744125396D5E00C0FDB8 /* SceneDelegate.swift in Sources */,
 			);

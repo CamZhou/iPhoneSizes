@@ -7,7 +7,7 @@
 
 import UIKit
 
-enum DeviceType: String, CaseIterable {
+enum DeviceType: String, CaseIterable, DeviceDetailInput {
   case iPhone12ProMax = ""
   case iPhone12Pro
   case iPhone12
@@ -69,7 +69,7 @@ enum DeviceType: String, CaseIterable {
     case "iPhone8,1":
       self = .iPhone6s
     default:
-      self = nil
+      return nil
     }
   }
 }
