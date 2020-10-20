@@ -67,8 +67,8 @@ extension DeviceSelectionViewController {
   }
 
   func showDeviceDetail(with device: DeviceType) {
-//    let controller = DeviceDetailViewController(with: device)
-//    navigationController?.pushViewController(controller, animated: true)
+    let controller = DeviceDetailViewController(currentDevice: CurrentDeviceMock(), targetDevice: DeviceMock())
+    navigationController?.pushViewController(controller, animated: true)
   }
 }
 
